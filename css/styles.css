@@ -1,0 +1,24 @@
+body{
+    background-image: url(../AvicPic.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-size: 100% 100%;
+}
+#mainHead{
+    font-size: 85px;
+    top: 50%;
+}
+#explain{
+    font-size: 35px;
+    top: 70%;
+    
+}
+#explain,#mainHead{
+    color: white;
+    position:fixed;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
